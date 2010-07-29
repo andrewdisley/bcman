@@ -1,0 +1,18 @@
+/*
+	Site:		BarCamp Manchester 3 | bcman3.nwdc.org.uk
+	File:		/assets/styles/ie.css
+	Author:		Andrew Disley, Simplified http://simplified.co.uk/
+	Version:	2010-07-29
+----------------------------------------------- */
+/* hide from ie/mac \*/
+div { zoom: 1; }
+.s-i-i { font-size: 1px; line-height: 1px; }
+.clear { height: 0; font-size: 1px; }
+.clearfix { height: 1%; }
+#Content,
+#Sponsors { display: inline; }
+#Sponsors ul li,
+#Sponsors ul li a { height: 1%; zoom: 1; }
+body.home #Tickets { padding-bottom: 0; }
+body.home #Sponsors { clear: both; float: left; width: 940px; }
+/* end import/hide */

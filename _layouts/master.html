@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+<html profile="http://gmpg.org/xfn/11" lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>{{ page.title }}</title>
+		{% if page.meta_description %}<meta name="description" content="{{ page.meta_description }}">{% endif %}
+		{% if page.meta_keywords %}<meta name="keywords" content="{{ page.meta_keywords }}">{% endif %}
+		<meta name="author" content="Andrew Disley, Simplified http://simplified.co.uk/">
+		<link href="{{ site.assets_url }}assets/styles/screen.css" media="screen" rel="stylesheet" type="text/css">
+		<!--[if lte IE 7]><link href="/assets/styles/ie.css" media="screen" rel="stylesheet" type="text/css"><![endif]-->
+		<link href="{{ site.url }}favicon.ico" rel="shortcut icon" type="image/x-icon">
+	</head>
+	<body{% if page.section %} class="{{ page.section }}"{% endif %} id="bcman3.nwdc.org.uk">
+		<script type="text/javascript">document.body.className += ' hasJS';</script>
+		<div id="Header">
+			<p class="branding"><img alt="BarCamp Manchester 3" height="60" src="{{ site.assets_url }}assets/images/global/barcampmanchester3.png" width="280"> <strong class="strapline">Saturday 21st August 2010, MadLab, Manchester</strong></p>
+			<div id="NavigationPrimary">
+				<ul>
+					<li><a{% if page.section contains 'home' %} class="active"{% endif %} href="{{ site.url }}">Home</a></li>
+					<li><a{% if page.section contains 'details' %} class="active"{% endif %} href="{{ site.url }}details/">Details</a></li>
+					<li><a{% if page.section contains 'schedule' %} class="active"{% endif %} href="{{ site.url }}schedule/">Schedule</a></li>
+					<li><a{% if page.section contains 'sponsors' %} class="active"{% endif %} href="{{ site.url }}sponsors/">Sponsors</a></li>
+					<li><a{% if page.section contains 'organisers' %} class="active"{% endif %} href="{{ site.url }}organisers/">Organisers</a></li>
+				</ul>
+				{% if site.s_sponsors %}<p class="highlight"><a href="{{ site.url }}sponsors/pdf/"><strong>Sponsor BarCamp Manchester 3</strong></a></p>{% endif %}
+			</div>
+		</div>
+{{ content }}
+		<div class="container">
+			<div class="col-16" id="Footer">
+				<p class="col-11">BarCamp Manchester 3 is supported by <a href="http://madlab.org.uk/">MadLab</a> &amp; <a href="http://flythe.coop/">FlyThe.Coop</a></p>
+				<p class="col-4">Website by <a href="http://simplified.co.uk/">Simplified<span class="s-h-o">: Web Design and Development Wigan, Greater Manchester</span></a></p>
+			</div>
+		</div>
+{% comment %}
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script>
+		<script src="{{ site.assets_url }}assets/scripts/global.js" type="text/javascript"></script>
+		<script type="text/javascript">
+			var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+			document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+			var pageTracker = _gat._getTracker("UA-78380-23");pageTracker._initData();pageTracker._trackPageview();
+		</script>
+{% endcomment %}
+	</body>
+</html>

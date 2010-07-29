@@ -1,0 +1,10 @@
+#auto: true
+destination: ../Website
+permalink: /:categories/:title
+#url: http://bcman3.nwdc.org.uk
+#assets_url: http://assets-bcman3.nwdc.org.uk
+url: /
+assets_url: /
+s_email: bcman3@nwdc.org.uk
+s_sponsors: true
+exclude: ['rakefile', 'README']
