@@ -150,10 +150,10 @@ body.sponsors #Sidebar h3 { border-bottom: 2px solid #CCCCCC; }
 body.sponsors #Sponsors ul { clear: both; padding: 10px 0; }
 body.sponsors #Sponsors li { text-align: left; }
 body.sponsors #Sponsors li:after { content: " "; display: block; height: 0; clear: both; visibility: hidden; }
-body.sponsors #Sponsors li img { margin-left: 0; margin-bottom: 10px; float: right; }
+body.sponsors #Sponsors li img { margin-left: 0; float: right; }
 body.sponsors #Sponsors li h3 { font-size: 1.1250em; padding: 5px 10px; }
 body.sponsors #Sponsors li h3 a { text-decoration: none; }
-body.sponsors #Sponsors li h3 em { float: left; font-size: 0.8889em; padding-top: 5px; width: auto; }
+body.sponsors #Sponsors li h3 em { clear: both; float: left; font-size: 0.8889em; margin-bottom: 0; margin-top: -45px; padding-top: 5px; width: auto; }
 body.sponsors #Sponsors li h3 em a { text-decoration: underline; }
 body.sponsors #Sponsors li p { clear: both; font-size: 0.8750em; padding: 0 10px; }
 body.sponsors #Sponsors ul.micro { margin-left: -10px; }
