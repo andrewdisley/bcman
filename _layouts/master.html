@@ -8,13 +8,13 @@
 		{% if page.meta_keywords %}<meta name="keywords" content="{{ page.meta_keywords }}">{% endif %}
 		<meta name="author" content="Andrew Disley, Simplified http://simplified.co.uk/">
 		<link href="{{ site.assets_url }}assets/styles/screen.css" media="screen" rel="stylesheet" type="text/css">
-		<!--[if lte IE 7]><link href="/assets/styles/ie.css" media="screen" rel="stylesheet" type="text/css"><![endif]-->
+		<!--[if lte IE 7]><link href="{{ site.assets_url }}assets/styles/ie.css" media="screen" rel="stylesheet" type="text/css"><![endif]-->
 		<link href="{{ site.url }}favicon.ico" rel="shortcut icon" type="image/x-icon">
 	</head>
 	<body{% if page.section %} class="{{ page.section }}"{% endif %} id="bcman3.nwdc.org.uk">
 		<script type="text/javascript">document.body.className += ' hasJS';</script>
 		<div id="Header">
-			<p class="branding"><img alt="BarCamp Manchester 3" height="60" src="{{ site.assets_url }}assets/images/global/barcampmanchester3.png" width="280"> <strong class="strapline">Saturday 21st August 2010, MadLab, Manchester</strong></p>
+			<p class="branding"><img alt="BarCamp Manchester 3" height="60" src="{{ site.assets_url }}assets/images/global/barcampmanchester.png" width="260"> <strong class="strapline">Saturday 21st August 2010, MadLab, Manchester</strong></p>
 			<div id="NavigationPrimary">
 				<ul>
 					<li><a{% if page.section contains 'home' %} class="active"{% endif %} href="{{ site.url }}">Home</a></li>
