@@ -1,5 +1,5 @@
 #auto: true
-destination: ../Website
+destination: _site
 permalink: /:categories/:title
 #url: http://bcman3.nwdc.org.uk
 #assets_url: http://assets-bcman3.nwdc.org.uk
