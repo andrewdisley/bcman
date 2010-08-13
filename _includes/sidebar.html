@@ -1,5 +1,5 @@
-			<div class="col-5" id="Sidebar">
-{% if page.section contains 'sponsors' %}
+{% comment %}
+
 				<h2>Sponsorship Opportunities</h2>
 				<p>Due to the nature of the event there are a number of costs incurred which make great sponsorship opportunities for local businesses, regional tech/industry companies and international companies looking to increase their exposure amongst the active Manchester community.</p>
 				<p>In return for their support of sponsors of BarCamp Manchester 3 will receive:</p>
@@ -17,12 +17,21 @@
 				<p>As a micro sponsor you'll get recognition on the Micro Sponsors section of the website along with a logo displayed with all the other micro sponsors at the event.</p>
 				<h3>Contact Details</h3>
 				<p>To discuss BarCamp Manchester sponsorship opportunities, please contact <strong>Andrew Disley</strong> <a href="mailto:{{ site.s_email }}">{{ site.s_email }}</a> or call him on <strong>07921 040857</strong>.</p>
+{% endcomment %}
+{% if page.section contains 'supporters' %}
+
 {% else %}
-				<div id="Sponsors">
+			<div class="col-5" id="Sidebar">
+				<div id="Supporters">
 					<h3><a href="{{ site.url }}sponsors/">Sponsors</a></h3>
 					<ul>
 						<li><a href="http://www.adaptavist.com/"><img alt="Adaptavist" height="70" src="{{ site.assets_url }}assets/images/global/adaptavist.png" width="236"></a></li>
+						<li><a href="http://www.bytemark.co.uk/"><img alt="Bytemark Hosting" height="70" src="{{ site.assets_url }}assets/images/global/bytemarkhosting.png" width="236"></a></li>
+					</ul>
+					<h4>Micro Sponsors</h4>
+					<ul class="micro">
+						<li class="first"><a href="http://simplified.co.uk/"><img alt="Simplified: Freelance Front-End Web Development &amp; Web Design Manchester by Andrew Disley" height="48" src="{{ site.assets_url }}assets/images/global/simplified.png" width="131"></a></li>
 					</ul>
 				</div>
-{% endif %}
 			</div>
+{% endif %}

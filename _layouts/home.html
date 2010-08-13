@@ -3,15 +3,16 @@ layout: master
 ---
 {{ content }}
 		<div class="container">
-			<div class="col-16" id="Sponsors">
+			<div class="col-16" id="Supporters">
 				<h3><a href="{{ site.url }}sponsors/">Sponsors</a></h3>
-				<p><strong>Help:</strong> The BarCamp Manchester planning team are looking for sponsors to make the event possible. If you or know anyone who can sponsor send them <a href="{{ site.url }}sponsors/pdf/">our way</a>.</p>
+				{% if site.s_sponsors %}<p><strong>Help:</strong> The BarCamp Manchester planning team are looking for sponsors to make the event possible. If you or know anyone who can sponsor send them <a href="{{ site.url }}sponsors/pdf/">our way</a>.</p>{% endif %}
 				<ul>
 					<li class="first"><a href="http://www.adaptavist.com/"><img alt="Adaptavist" height="80" src="{{ site.assets_url }}assets/images/global/adaptavist.png" width="270"></a></li>
+					<li><a href="http://www.bytemark.co.uk/"><img alt="Bytemark Hosting" height="80" src="{{ site.assets_url }}assets/images/global/bytemarkhosting.png" width="270"></a></li>
 				</ul>
 				<h4>Micro Sponsors</h4>
 				<ul class="micro">
-					<li class="first"><a href="http://simplified.co.uk/"><img alt="Simplified: Web Design and Development Wigan, Greater Manchester" height="48" src="{{ site.assets_url }}assets/images/global/simplified.png" width="131"></a></li>
+					<li class="first"><a href="http://simplified.co.uk/"><img alt="Simplified: Freelance Front-End Web Development &amp; Web Design Manchester by Andrew Disley" height="48" src="{{ site.assets_url }}assets/images/global/simplified.png" width="131"></a></li>
 				</ul>
 			</div>
 		</div>

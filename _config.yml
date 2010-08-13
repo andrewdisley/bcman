@@ -6,5 +6,5 @@ permalink: /:categories/:title
 url: /
 assets_url: /
 s_email: bcman3@nwdc.org.uk
-s_sponsors: true
+s_sponsors: false
 exclude: ['rakefile', 'README']
