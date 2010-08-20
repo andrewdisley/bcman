@@ -138,7 +138,6 @@ body.home #Supporters { clear: both; margin-bottom: 0; width: 940px; }
 body.home #Supporters ul { padding-top: 5px; }
 body.home #Supporters ul li { float: left; margin-left: 10px; width: auto; width: 302px; }
 body.home #Supporters ul li.first { clear: left; margin-left: 0; }
-body.home #Supporters ul li.alt { margin-left: 11px; margin-right: 1px; }
 body.home #Supporters ul.micro { margin-left: 0; padding-top: 0; }
 body.home #Supporters ul.micro li { width: 131px; min-height: 30px; }
 body.home #Supporters p { clear: both; }
