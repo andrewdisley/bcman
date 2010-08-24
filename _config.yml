@@ -1,10 +1,10 @@
 #auto: true
 destination: _site
 permalink: /:categories/:title
-#url: http://bcman3.nwdc.org.uk
-#assets_url: http://assets-bcman3.nwdc.org.uk
+#url: http://bcman.nwdc.org.uk
+#assets_url: http://assets-bcman.nwdc.org.uk
 url: /
 assets_url: /
-s_email: bcman3@nwdc.org.uk
+s_email: bcman@nwdc.org.uk
 s_sponsors: false
 exclude: ['rakefile', 'README']
